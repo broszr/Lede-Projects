@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+    <head>
+         <style>
+    body{
+      background-color: #f7f7f7;
+      width: 100%;
+    } 
+    h1{border-bottom: solid;
+      border-width: 5px;
+      border-color: black;
+      border-radius: 6px;
+      padding: 3px;
+      background-color: cornsilk;
+      color:#000000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      text-align: center;
+      margin: 0px;}
+    h2{
+      border-style: solid;
+      border-width: 2px;
+      width: auto;
+      height: auto;
+      border-color: black;
+      border-radius: 6px;
+      padding: 3px;
+      background-color:cornsilk;
+      color: #000000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      text-align: center;
+    }
+    .subtitle{border-style: solid;
+      border-width: 5px;
+      width: 200px;
+      height: auto;
+      border-color: black;
+      border-radius: 6px;
+      padding: auto;
+      background-color:cadetblue;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+    a:link{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color: rgb(0, 195, 255);
+   }
+.background{
+    height: 100px;
+    width:auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: lightblue;
+}
+.aniPlane{
+    width: 100px;
+    height:100px;
+
+    animation:planeSlide;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+}
+@keyframes planeSlide{
+    from{margin-left:-15%}
+    to{margin-left:100%}
+    60%{margin-top:-2%}
+    25%{transform: rotateZ(-10deg)}
+}
+.charts{
+    width: auto;
+    height:10rem;
+}
+.graphic1{
+    width: 100%;
+    height:50%;
+    justify-self: center;
+}
+.graphic2{
+    width: 100%;
+    height:50%;
+    justify-self: center;
+}
+.grid1{
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-rows: auto auto;
+    grid-row-gap: .5%;
+    grid-column-gap: 2%;
+    background-color: rgb(58, 71, 90);
+    justify-content: center;
+
+}
+.textgrid{
+    color:white;
+    width:auto;
+    height:97.5%;
+    background-color: rgba(164, 157, 157, 0.3);
+    position: relative;
+    margin-right:  17%;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top: 1.5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+   
+}
+.grid-item1{
+    margin-left:0%;
+    margin-right:0%;
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    padding-left: 51%;
+}
+.grid-item3{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    width: 80%;
+    justify-self: center;
+}
+.box{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.textbox{
+    color:black;
+    width:auto;
+    height:auto;
+    background-color: rgba(164, 157, 157, 0.3);
+    padding:50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.charts{
+    width: 700px;
+    height:500px;
+
+}
+.chart_pair{
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+    column-gap: 1%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: start;
+}
+.gridChart_1{
+    width: 95%;
+    height: 95%;
+}
+.gridChart_2{
+    width: 95%;
+    height: 95%;
+}
+.gridChart_2_1 {
+    width: 100%;
+    height: 110%;
+    
+
+}
+.Project2Plane{
+    height: 2fr;
+    width: 1fr;
+}
+.legend{
+    width:10%; 
+    height:10%;
+    right:0;
+    top:0;
+    position: relative;
+}
+</style>
+    </head>
+    <body>
+        <div id="Project2Plane">
+        <div><h1>The Jet Age <br/> By Roman Broszkowski</h1></div>
+        <div class="background">
+            <img class="aniPlane" src="A350-900.svg"/>
+        </div>
+        </div>
+
+<div><h1>Who built the Jet Age?</h1></div>
+
+ <div class="grid1">
+       <div class="grid-item grid-item1"><iframe title="Number of Jets Created By Country Since 1952" aria-label="Pie Chart" id="datawrapper-chart-txocL" src="https://datawrapper.dwcdn.net/txocL/1/" scrolling="no" frameborder="0" style="width: 75%; min-width: 0% !important; border: none;" height="100%" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();</script></div>
+       <div class="grid-item grid-item2"><div class="textgrid"> <br/>Suprisingly few jetliners have ever been designed. Since the first commercial jet was introduced in 1952, only 63 models have entered commercial service with various airlines around the world.<br/><br/> Almost half of those designs have come from just two countries: the United States and Russia.  <br/><br/>However, in recent years other have entered the arena. In the 21st century, China and Brazil have both sought to expand their aerospace industries, with China especially generating new designs for small to medium jets. </div></div>
+       <div class="grid-item grid-item3"><iframe title="Average Year of Jets Created By Country Since 1952 " aria-label="Scatter Plot" id="datawrapper-chart-MI93R" src="https://datawrapper.dwcdn.net/MI93R/2/" scrolling="no" frameborder="0" style="width: 100%; min-width: 0% !important; border: none;" height="100%" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();
+</script></div>
+    
+</div>
+        
+</script>
+<div>
+    <br/>
+        <div><h1>How have Jets changed?</h1></div>
+        <div>
+            <div class="textbox">In the 70 years since the start of the commercial <a href="https://en.wikipedia.org/wiki/Jet_Age"><strong>"Jet Age"</strong></a>, jetliners have changed — although not always in the ways one might expect. <br/><br/> We tend to think of new technology being inherently faster than things built in the past, but the cruising speed of jets hasn't changed much. In fact the cruising speed of 80 percent of commercial jets built since 1952 falls within 1/2 a standard deviation of the average. When you control for aircraft size, some changes are more evident — especially for larger planes, but overall jets aren't flying that much faster than they use to. <br/><br/> Part of why may have to do with the end of super-sonic travel. Two planes — the Tupolev Tu-144 and Aérospatiale-BAC Concorde were the first commercial supersonic jets. However, after a series of accidents, the jet industry moved away from supersonic technology.</div>
+            <div>
+                <div class="box"><iframe title="Cruising Speed  vs. Entry Year of Airline Service " aria-label="Scatter Plot" id="datawrapper-chart-2BxCY" src="https://datawrapper.dwcdn.net/2BxCY/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="422" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();</script></div>
+                <div class="textbox">Depending on how many passengers a plane can carry — as a proxy for whether it was designed for long-haul, medium-haul, or regional flights — jets have followed several trends that seem to indicate increased specialization in design.</div>
+            </div>
+            <div class ="chart_pair">
+                <img class="gridChart_1" src="CruisingSpeed.svg"/>
+                <img class ="gridChart_2" src="WingspanLength.svg"/>
+            </div>
+
+            <div class="textbox">While jet cruising speed across plane size has remained pretty constant, planes with more than 300 seats have undergone a noticeable increase in their wingspan and length. This — as well as the increase in the maximum take off weight of these types of jet — suggest that jets optimized for long-haul flights are getting more powerful and capable of flying further overtime. </div>
+            
+            <div class ="chart_pair">
+                <img class="gridChart_1" src="MTOW(Kg).svg"/>
+                <img class ="gridChart_2_1"src="AverageSeats.svg"/>
+            </div>
+
+            <div class="textbox">Yet these changes seem to be restricted to planes with more than 300 seats and so say very little about industry-wide trends. In fact, both planes with between 100 — 299 seats and planes with less than 100 seats seem to have gotten less powerful and smaller overall. <br/><br/> Interestingly, the number of flights needed to recoup the cost of a new plane has also remained relatively constant, suggesting that the ratio between plane seating, ticket price, and aircraft price have remained balanced over the past 70 years.  </div>
+            <div><iframe title="Flights to Recoup Base Price" aria-label="Scatter Plot" id="datawrapper-chart-T686o" src="https://datawrapper.dwcdn.net/T686o/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="426" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();</script></div>
+            <div class="textbox">However, when you look at the costs associated with modern jets, it becomes apparent that there is one area specifically in which all types of planes have been optimized: fuel efficiency.</div>
+            
+            <div class ="chart_pair">
+                <img class="gridChart_1" src="Flight2Recoup.svg"/>
+                <img class ="gridChart_2" src="Litre_100km.svg"/>
+            </div>
+
+            <div class="textbox">Regardless of size or purpose, jets today are more fuel efficient than at any point in their history. This — more than increased distance, size, capacity, or power — seems to be where the industry is headed.</div>
+            
+        </div>
+
+        <div>
+            <h1>How Far Can They Fly?</h1>
+            <div class="textbox">Today, in many ways jets have stagnated. Of the 5 commercial jets with the largest maximum range, the average year they entered service is 2004 and only two companies — Airbus and Boeing — are represented.</div>
+            <div class="textbox">Maximum Flying Distance of the Five Commercial Jet Planes with the Longest Ranges<br/><p>Distance in Kilometers from JFK Airport, New York City, New York, USA</p>
+                <img class="graphic1" src="Range1.svg"/>
+                <img class="graphic1"src="Range2.svg"/>
+                <img class="graphic1"src="Range3.svg"/>
+                <img class="graphic1"src="Range4.svg"/>
+                <img class="graphic1"src="Range5.svg"/>
+            </div>
+        </div>
+        <div>
+            <h1>How Much Can They Carry?</h1>
+        <div class="textbox">For the 5 commercial jets with the largest maximum additional take off weight (i.e. the difference between their maximum take off weight and their empty weight), the average year they entered service is 1995, though here three companies — Airbus, Boeing, and McDonnell Douglas — are represented.</div>
+        <div class="textbox">Top Five Commercial Jet Planes by Maximum Additional Take Off Weight<br/><p>Weight in US tons.</p>
+            <img class="legend" src="MTOWLeg.svg"/>
+            <img class="graphic2"src="MTOW1.svg"/>
+            <img class="graphic2"src="MTOW2.svg"/>
+            <img class="graphic2"src="MTOW3.svg"/>
+            <img class="graphic2"src="MTOW4.svg"/>
+            <img class="graphic2" src="MTOW5.svg"/>
+        </div>
+</div>
+    </body>
