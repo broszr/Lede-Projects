@@ -1,5 +1,36 @@
 # Lede-Projects
+--------
+--------
+## Project 1
+#### Title:
+#### Goal Description:
+#### Findings:
+#### Data collection summary:
+#### Data used for analysis:
+#### Overview of the data analysis process
+#### A section about what new skills, approaches, etc you used, or where you grew the most during the project
+#### A section about things you tried to do or wanted to do but did not have the skills/time (but if you have more time you might do)
 
-This is the README, which you’ll find in all sorts of repositories. README will often cover why a repo was created, what it contains, and how to use the content inside.
+--------
+--------
+## Project 2
+#### Title:
+#### Goal Description:
+#### Findings:
+#### Data collection summary:
+#### Data used for analysis:
+#### Overview of the data analysis process
+#### A section about what new skills, approaches, etc you used, or where you grew the most during the project
+#### A section about things you tried to do or wanted to do but did not have the skills/time (but if you have more time you might do)
 
-Since no one wants to read your code, they want to read about your code, and keeping that in mind a solid README if the ticket to success.
+--------
+--------
+## Project 3
+#### Title:
+#### Goal Description:
+#### Findings:
+#### Data collection summary:
+#### Data used for analysis:
+#### Overview of the data analysis process
+#### A section about what new skills, approaches, etc you used, or where you grew the most during the project
+#### A section about things you tried to do or wanted to do but did not have the skills/time (but if you have more time you might do)
