@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96.73 36.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 7px;
+        font-weight: 700;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1=".43" y1="13.87" x2="96.73" y2="13.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff200"/>
+      <stop offset="1" stop-color="#f7941d"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-1" x=".43" width="96.3" height="27.73"/>
+      <g>
+        <text class="cls-2" transform="translate(0 33.74)"><tspan x="0" y="0">0%</tspan></text>
+        <text class="cls-2" transform="translate(78.83 33.74)"><tspan x="0" y="0">100%</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
