@@ -14,7 +14,7 @@ I began by obtaining a shape file for NYC's election districts. Then, using the 
 #### Overview of the data analysis process
 The data analysis for this project was relatively straightforward, relying mostly on scatterplots. In contrast, the data collection process was very time-intensive and cumbersome. 
 #### A section about what new skills, approaches, etc you used, or where you grew the most during the project
-This project ended up being way more than I could do as a first project. Although I began it first, I ended up completing it second. I learned a lot about QGIS, MapBox, shapefiles, GeoPandas, and integrating reactive maps into an HTML page. 
+This project ended up being way more than I could do as a first project. Although I began it first, I ended up completing it second. I learned how to use QGIS and MapBox to style maps, how to create and use shapefiles and GeoPandas, and how to integrate reactive maps into an HTML page. 
 #### A section about things you tried to do or wanted to do but did not have the skills/time (but if you have more time you might do)
 
 --------
