@@ -5,11 +5,16 @@
 #### Title:
 Bus Zo-mentum
 #### Goal Description:
+I wanted to see if there was any relationship between bus speed and first-round voter preference in the 2025 NYC Democratic Mayoral Primary
 #### Findings:
+I found that there did exist a relationship between bus speed and support for Mamdani, but that it was limited to electoral districts along a specific borough's slowest line and mediated through the percentage of car ownership in that borough. 
 #### Data collection summary:
+I began by obtaining a shape file for NYC's election districts. Then, using the Board of Election's data, I created a table of election districts by the percentage of the vote that Mamdani won in the first round, before merging the two files using GeoPandas.<br/><br/> I then downloaded MTA bus speed data from OpenNYC and identified the slowest and fastest regularly scheduled line in each of the five boroughs. I manually collected the coordinates for each stop on each line, reformatted them, and coded them in GeoJSON.io. I downloaded the result in a shapefile and uploaded everything to MapBox. <br/><br/> Finally, I manually identified the election percentage of the district containing each stop and used Google Sheets to make scatterplots. I compared the R-value of the trendlines on each chart to determine how strong a relationship existed between the variables I tested.   
 #### Data used for analysis:
 #### Overview of the data analysis process
+The data analysis for this project was relatively straightforward, relying mostly on scatterplots. In contrast, the data collection process was very time-intensive and cumbersome. 
 #### A section about what new skills, approaches, etc you used, or where you grew the most during the project
+This project ended up being way more than I could do as a first project. Although I began it first, I ended up completing it second. I learned a lot about QGIS, MapBox, shapefiles, GeoPandas, and integrating reactive maps into an HTML page. 
 #### A section about things you tried to do or wanted to do but did not have the skills/time (but if you have more time you might do)
 
 --------
