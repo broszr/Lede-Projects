@@ -44,6 +44,7 @@ I would have liked to done more statistical analysis of the data I collected and
 --------
 ## Project 3
 #### Title:
+Funding a Governor
 #### Goal Description:
 #### Findings:
 #### Data collection summary:
